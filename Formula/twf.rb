@@ -1,28 +1,28 @@
 class Twf < Formula
   desc "Toolchain for designing and validating entire Temporal systems in .twf"
   homepage "https://github.com/jmbarzee/temporal-architect"
-  version "0.11.0"
+  version "0.12.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jmbarzee/temporal-architect/releases/download/v0.11.0/twf-v0.11.0-darwin-arm64.tar.gz"
-      sha256 "3a0b31de2d744cf3da2b55f348c6601c31d16b33777cf01fac5ed53dda169c0b"
+      url "https://github.com/jmbarzee/temporal-architect/releases/download/v0.12.0/twf-v0.12.0-darwin-arm64.tar.gz"
+      sha256 "febf92b79900f387ae3389283c3fd7e033aed7ffff9f8b7ef4687e481af8f246"
     end
     on_intel do
-      url "https://github.com/jmbarzee/temporal-architect/releases/download/v0.11.0/twf-v0.11.0-darwin-amd64.tar.gz"
-      sha256 "4aee0993b1c718305e3e9b885edc70c124524a42d9672012be2dc68a55fe1d4c"
+      url "https://github.com/jmbarzee/temporal-architect/releases/download/v0.12.0/twf-v0.12.0-darwin-amd64.tar.gz"
+      sha256 "458987c03bc1b05dc832715537dd175824a71128d1d51ac213c4e838edb6e8ca"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jmbarzee/temporal-architect/releases/download/v0.11.0/twf-v0.11.0-linux-arm64.tar.gz"
-      sha256 "8a10075a0beb0c98ef7da3c31033e0d960cfb6f892f0ef4a315d98d20482f238"
+      url "https://github.com/jmbarzee/temporal-architect/releases/download/v0.12.0/twf-v0.12.0-linux-arm64.tar.gz"
+      sha256 "05cb91d8f33827331b855e4241d6ea4c1298c240ac65c2902b669fb1f8cd53c3"
     end
     on_intel do
-      url "https://github.com/jmbarzee/temporal-architect/releases/download/v0.11.0/twf-v0.11.0-linux-amd64.tar.gz"
-      sha256 "1a2b9b54374f7e73ac405a73091256bc2762a2aa78e4e556e67e5a4fccd5a9ab"
+      url "https://github.com/jmbarzee/temporal-architect/releases/download/v0.12.0/twf-v0.12.0-linux-amd64.tar.gz"
+      sha256 "04de0dd9d59677978033efd0cf03734b861def9b14373f3fe16bf9c33662b9d2"
     end
   end
 
