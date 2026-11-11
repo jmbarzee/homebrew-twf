@@ -1,28 +1,28 @@
 class Twf < Formula
-  desc "Toolchain for designing and validating entire Temporal systems in .twf"
+  desc "Design and validate entire Temporal systems in every Temporal SDK"
   homepage "https://github.com/jmbarzee/temporal-architect"
-  version "0.16.0"
+  version "0.17.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jmbarzee/temporal-architect/releases/download/v0.16.0/twf-v0.16.0-darwin-arm64.tar.gz"
-      sha256 "ec48b51c8f4dfbd5f59a7047342f744fe9ecb69fadd836e1d9a7f71e11288c66"
+      url "https://github.com/jmbarzee/temporal-architect/releases/download/v0.17.0/twf-v0.17.0-darwin-arm64.tar.gz"
+      sha256 "a61eb566edfa4eb0bd87a981c62a743bd4f8e9ea467dcb150281b2600479ac21"
     end
     on_intel do
-      url "https://github.com/jmbarzee/temporal-architect/releases/download/v0.16.0/twf-v0.16.0-darwin-amd64.tar.gz"
-      sha256 "019ea1a60c9a5e021f9ef050cd21de8285ec62ea7ddbc426b81b08f02ab0bf9c"
+      url "https://github.com/jmbarzee/temporal-architect/releases/download/v0.17.0/twf-v0.17.0-darwin-amd64.tar.gz"
+      sha256 "2d74514cc449a272ab96a15111fbcbadc7d4d2b197d025fb3cc20e30338a5271"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jmbarzee/temporal-architect/releases/download/v0.16.0/twf-v0.16.0-linux-arm64.tar.gz"
-      sha256 "f6a16b64fe0c55be9bf6c79d674217d36fa39ffe8944b47e34fc1f8048e93faa"
+      url "https://github.com/jmbarzee/temporal-architect/releases/download/v0.17.0/twf-v0.17.0-linux-arm64.tar.gz"
+      sha256 "8ecf3d45ca54688523972ebbb624dfc062661aca85decfd7f8494796c3ac5ba4"
     end
     on_intel do
-      url "https://github.com/jmbarzee/temporal-architect/releases/download/v0.16.0/twf-v0.16.0-linux-amd64.tar.gz"
-      sha256 "5f220064522356ca8891b36d67fad0c9f90cb3994314dcc522315dc5db38530a"
+      url "https://github.com/jmbarzee/temporal-architect/releases/download/v0.17.0/twf-v0.17.0-linux-amd64.tar.gz"
+      sha256 "fca26dad60cf3c8214572925ec7f61396e7eea8be0e414d4d9588807342bcb38"
     end
   end
 
