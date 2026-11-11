@@ -1,28 +1,28 @@
 class TwfView < Formula
-  desc "Live temporal-architect visualizer over local HTTP — hosts the .twf design graph and live-reloads on change"
+  desc "Live local visualizer for .twf Temporal system designs"
   homepage "https://github.com/jmbarzee/temporal-architect-dist"
-  version "0.16.0"
+  version "0.17.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jmbarzee/temporal-architect-dist/releases/download/v0.16.0/twf-view-v0.16.0-darwin-arm64.tar.gz"
-      sha256 "823abf30e30a2cdca23ecdda727042c4fe4970df442617e40622238f063293d8"
+      url "https://github.com/jmbarzee/temporal-architect-dist/releases/download/v0.17.0/twf-view-v0.17.0-darwin-arm64.tar.gz"
+      sha256 "8630e91e0255b5aebba78e718f0ec911e86ef5b94ffdfb90167622d3470c149d"
     end
     on_intel do
-      url "https://github.com/jmbarzee/temporal-architect-dist/releases/download/v0.16.0/twf-view-v0.16.0-darwin-amd64.tar.gz"
-      sha256 "17a50394ac31dc02714479aad23962f6beaa4a87aedc712fdb2cb6547dfdd297"
+      url "https://github.com/jmbarzee/temporal-architect-dist/releases/download/v0.17.0/twf-view-v0.17.0-darwin-amd64.tar.gz"
+      sha256 "73c1250bb805b4419678490811ade321354175b3b864246fb002ba3ec9ba586a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jmbarzee/temporal-architect-dist/releases/download/v0.16.0/twf-view-v0.16.0-linux-arm64.tar.gz"
-      sha256 "ecf0b1d5cf0106a771c7b106d0c770e5d805753448d2d43309ff64774c09a746"
+      url "https://github.com/jmbarzee/temporal-architect-dist/releases/download/v0.17.0/twf-view-v0.17.0-linux-arm64.tar.gz"
+      sha256 "23f4f3680962280082b420d63e82b59d770aef98560e30018cfac31ddb7e832a"
     end
     on_intel do
-      url "https://github.com/jmbarzee/temporal-architect-dist/releases/download/v0.16.0/twf-view-v0.16.0-linux-amd64.tar.gz"
-      sha256 "82790a4f423555b4df3808bbd7186e15ddf5beec1f427b4b2ea576b271cbcbb3"
+      url "https://github.com/jmbarzee/temporal-architect-dist/releases/download/v0.17.0/twf-view-v0.17.0-linux-amd64.tar.gz"
+      sha256 "e8eef6be5927cf0197ac5cd772e8bd4e11fbd1388f0ffdd45de19347e5e429b1"
     end
   end
 
